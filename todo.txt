@@ -1,0 +1,7 @@
+TODO
+====
+Pictures
+Markdown to html
+styling
+Autofill date.
+theme switching.
