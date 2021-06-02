@@ -5,9 +5,18 @@
   "image": "/assets/images/hello-world.png",
   "sections": [
     {
-      "name": "section1",
+      "id": "who-what",
+      "name": "Who are you? What is this for?",
       "paragraphs": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "Hey, my name is Aiden Shi and I'm a high schooler with an intrest in programming. I've been programming since I was 7 (If you count html as a language and not markup).",
+        "This website is for all my thoughts, from education to programming. All thoughts are my own."
+      ]
+    },
+    {
+      "id": "website",
+      "name": "What is this website built with?",
+      "paragraphs": [
+        "This website is purely built with html and css. No trackers, no cookies stored. The website does use a bit of templating, but thats just used to make creating new articles easier, you can find all the source code <a href=\"https://github.com/vooxal/blog\">here</a>. The color scheme comes from <a href=\"https://www.nordtheme.com/\">Nord</a>. Fonts are <a href=\"https://github.com/googlefonts/dm-mono\">DM Mono</a> for the headings and <a href=\"https://github.com/googlefonts/RobotoMono\">Roboto Mono</a> for text."
       ]
     }
   ]
