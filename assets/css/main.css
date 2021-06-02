@@ -32,9 +32,7 @@ main {
 @media screen and (max-width: 900px) {
   main {
     all: unset;
-    margin-left: 10%;
     padding: 1.4em 2em 0 1.4em;
-
   }
 }
 
@@ -45,7 +43,8 @@ main {
   top: 0;
   left: 0;
   padding: 1.4em;
-  background:var(--background)
+  background: var(--background);
+  z-index: 10;
 }
 .logo a {
   color: var(--logo);
@@ -127,4 +126,8 @@ footer {
   text-align: center;
   font-size: 0.75em;
   margin: 5em 0 2em 0;
+}
+/* MAIN PAGE */
+.article {
+  color: var(--text);
 }
