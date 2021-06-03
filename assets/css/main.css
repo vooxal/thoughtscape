@@ -6,7 +6,21 @@
   --sub: #4c566a;
   --link: #88c0d0;
   --logo: #ebcb8b;
-  --pride: -webkit-linear-gradient(left, rgba(191,97,106,1) 0%, rgba(191,97,106,1) 20%, rgba(208,135,112,1) 20%, rgba(208,135,112,1) 35%, rgba(235,203,139,1) 35%, rgba(235,203,139,1) 50%, rgba(163,190,140,1) 50%, rgba(163,190,140,1) 65%, rgba(136,192,208,1) 65%, rgba(136,192,208,1) 80%, rgba(180,142,173,1) 80%, rgba(180,142,173,1) 100%);
+  --pride: -webkit-linear-gradient(
+    left,
+    rgba(191, 97, 106, 1) 0%,
+    rgba(191, 97, 106, 1) 20%,
+    rgba(208, 135, 112, 1) 20%,
+    rgba(208, 135, 112, 1) 35%,
+    rgba(235, 203, 139, 1) 35%,
+    rgba(235, 203, 139, 1) 50%,
+    rgba(163, 190, 140, 1) 50%,
+    rgba(163, 190, 140, 1) 65%,
+    rgba(136, 192, 208, 1) 65%,
+    rgba(136, 192, 208, 1) 80%,
+    rgba(180, 142, 173, 1) 80%,
+    rgba(180, 142, 173, 1) 100%
+  );
 }
 .theme-light {
   --background: #eceff4;
@@ -25,9 +39,10 @@ html {
 }
 main {
   padding: 1.4em 2em 0 1.4em;
-  margin-left: 50%;
-  transform: translateX(-50%);
-  max-width: 50%;
+  /* margin-left: 50%;
+  transform: translateX(-50%); */
+  margin: 0px auto;
+  max-width: 40em;
 }
 
 @media screen and (max-width: 900px) {
@@ -130,4 +145,3 @@ footer {
   font-size: 0.75em;
   margin: 5em 0 2em 0;
 }
-

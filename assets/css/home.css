@@ -2,16 +2,16 @@
 .article {
   color: var(--text);
 }
-.article h1,
-.article h3 {
+.article .title,
+.article .subtitle {
   text-decoration: none;
   position: relative;
   width: fit-content;
 }
-.article h1::after {
+.article .title::after, .article .subtitle::after {
   position: absolute;
   content: "";
-  width: 100%;
+  width: 65%;
   height: 3px;
   top: 90%;
   left: 0;
@@ -20,21 +20,14 @@
   transform: scaleX(0);
   transform-origin: right;
 }
-.article h3::after {
-  position: absolute;
-  content: "";
-  width: 100%;
+.article .subtitle::after {
+  width: 50%;
   height: 2px;
   top: 100%;
-  left: 0;
-  background: var(--text);
-  transition: transform 200ms;
   transition-delay: 100ms;
-  transform: scaleX(0);
-  transform-origin: right;
 }
-.article:hover h1::after,
-.article:hover h3::after {
+.article:hover .title::after,
+.article:hover .subtitle::after {
   transform: scaleX(1);
   transform-origin: left;
 }
